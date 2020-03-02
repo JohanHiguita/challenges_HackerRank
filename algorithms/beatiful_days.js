@@ -8,9 +8,9 @@ console.log(test)
 
 function beautifulDays(i, j, k) {
     const range_arr = Array.from(new Array(j-i+1), (val, index) => i + index);
-    const out = range_arr.filter(num => {
+    const beautiful = range_arr.filter(num => {
         let reverse_num = parseInt(num.toString().split("").reverse().join(""));
         return Math.abs(num-reverse_num) % k == 0
     });
-    return out.length
+    return beautiful.length
 }
