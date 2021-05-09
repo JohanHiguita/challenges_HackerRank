@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/common-child/problem
 
 const s2 = "WEWOUCUIDGCGTRMEZEPXZFEJWISRSBBSYXAYDFEJJDLEBVHHKS";
 const s1 = "FDAGCXGKCTKWNECHMRXZWMLRYUCOCZHJRRJBOAJOQJZZVUYXIC";
